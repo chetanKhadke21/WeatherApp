@@ -17,7 +17,7 @@ const SearchBar = ({city, weather, setCity, setWeather, searchWeather}) => {
 
   return (
     <div>
-        <h2>Weather App</h2>
+        <h2>Skynote</h2>
 
         <form onSubmit={handleSubmit}>
             <Box
