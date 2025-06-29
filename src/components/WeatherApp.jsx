@@ -9,7 +9,7 @@ const WeatherApp = () => {
   const [weather, setWeather] = useState({});
   const [loading, setLoading] = useState(false);
 
-  let API_URL = "http://api.openweathermap.org/data/2.5/forecast?"
+  let API_URL = "https://api.openweathermap.org/data/2.5/forecast?"
   let API_KEY = "4821937b51a01d5809377db14eed7445"
 
     async function searchWeather(){
