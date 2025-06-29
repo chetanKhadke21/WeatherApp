@@ -18,7 +18,6 @@ const WeatherInfo = ({weather, setWeather, loading}) => {
   
     function changeTheme(){
       setTheme((theme) => !theme);
-      console.log(theme)
     }
 
     useEffect(() => {
